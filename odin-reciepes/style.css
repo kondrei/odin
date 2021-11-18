@@ -1,0 +1,17 @@
+body {
+    background-color: #F1FAEE;    
+    color: #1D3557;
+}
+
+h1, h2, h3{
+    color: #457B9D;
+}
+
+a {
+    color: #E63946;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #457B9D;
+}

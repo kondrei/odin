@@ -4,7 +4,7 @@ body {
     sans-serif;
   cursor: default;
   color: #86664e;
-  background: url('/rps/images/background.jpg') no-repeat center fixed;
+  background: url('./images/background.jpg') no-repeat center fixed;
 }
 .human {
 
@@ -57,7 +57,7 @@ h1, .win, .score{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/rps/images/rock.jpg');
+  background-image: url('.//images/rock.jpg');
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
@@ -66,7 +66,7 @@ h1, .win, .score{
 
 
 .paper {
-  background: url('/rps/images/paper.jpg') no-repeat;
+  background: url('.//images/paper.jpg') no-repeat;
   width: 200px;
   height: 200px;
   display: flex;
@@ -87,7 +87,7 @@ h1, .win, .score{
   align-items: center;
   justify-content: center;
   justify-content: center;
-  background-image: url('/rps/images/scissors.jpg');
+  background-image: url('./images/scissors.jpg');
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;

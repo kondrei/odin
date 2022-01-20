@@ -15,28 +15,28 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-transparent">
         <h1 class="text-center">Rock, Paper or Scissors</h1>
-        <div class="row align-items-center">
-            <div class="col text-center computer">Computer
+        <div class="panel align-items-center">
+            <div class="col text-center computer fs-2">Computer
                 <div id="computer" class="row align-items-center">
-                    <div class="col text-center rock">Rock</div>
-                    <div class="col text-center paper">Paper</div>
-                    <div class="col text-center scissors">Scissors</div>
+                    <div class="rock"></div>
+                    <div class="paper"></div>
+                    <div class="scissors"></div>
                 </div>
                 <div class="score">Score: <span id="computerScore"></span></div>
             </div>
-            <div class="col text-center human">Player
+            <div class="col text-center human fs-2">Player
                 <div id="human" class="row align-items-center">
-                    <div class="col align-self-center text-center rock">Rock</div>
-                    <div class="col text-center paper">Paper</div>
-                    <div class="col text-center scissors">Scissors</div>
+                    <div class="rock"></div>
+                    <div class="paper"></div>
+                    <div class="scissors"></div>
                 </div>
                 <div class="score">Score: <span id="playerScore"></span></div>
             </div>
         </div>
         <div class="col text-center">
-
+            <div class="win fs-3">Choose Rock, Paper or Scissors!</div>
             <button type="button" class="btn btn-lg btn-primary mx-auto">Reset</button>
         </div>
     </div>

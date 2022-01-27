@@ -18,7 +18,9 @@ const heading2 = creteDomElement('h2', 'I\’m in a div', div)
 
 const para2 = creteDomElement('p', 'mee too', div)
 
-const button = document.querySelector('#btn')
-button.addEventListener('click', (e) => {
-    console.log('you click' + e.target)
+const buttons = document.querySelectorAll('button')
+buttons.forEach((button) => {
+    button.addEventListener('mouseover', (e) => {
+        console.log('you click on button ', e.target.innerText)
+    })
 })

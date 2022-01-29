@@ -1,0 +1,15 @@
+body {
+  font-family: "EB Garamond", serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 100px);
+}
+.grid-container > div {
+  border: 1px solid black;
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+}

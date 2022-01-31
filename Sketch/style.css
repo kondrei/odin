@@ -2,14 +2,19 @@ body {
   font-family: "EB Garamond", serif;
 }
 
+.container {
+  display: flex;
+  max-width: 900px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 100px);
 }
-.grid-container > div {
-  border: 1px solid black;
+
+.grid-container>div {
+  border: 0.001em solid black;
+  border-color: rgba(29, 29, 212, 0.1);
   background-color: aquamarine;
-  width: 100px;
-  height: 100px;
 }

@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <title>Sketch</title>
 </head>
 
 <body>
     <h1>Etch-A-Sketch</h1>
     <button id="btn">Start Game!</button>
-<div class="grid-container">
+    <div class="container">
+        <div class="grid-container">
 
-</div>
-<script type="module">
+        </div>
+
+    </div>
+
+    <script type="module">
         import { Sketck } from './app.js'
-        let sketck = new Sketck(5);
+        let gridSize = 16;
+        let sketck = new Sketck(gridSize);
     </script>
 </body>
 

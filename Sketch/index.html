@@ -16,11 +16,20 @@
     <div class="container">
         <h1>Etch-A-Sketch</h1>
         <div class="gameArea">
+            <div class="controls">
+                <button id="btn">Wipe!</button>
+                <label>Select a color
+                    <input id="color" value="#6e7e85" type="color">
+                </label>
+                <label>Select Grid Size
+                    <input id="gridSize" type="range" value=16 min=2 max=100><span id="output"></span>
+                </label>
+                <label>Use rainbow color?
+                    <input id="rainbow" value="" type="checkbox">
+                </label>
+            </div>
             <div class="grid-container">
             </div>
-            <p>
-                <button id="btn">Reset</button>
-            </p>
         </div>
     </div>
 

@@ -1,20 +1,45 @@
 body {
   font-family: "EB Garamond", serif;
+  background: #e2e2e2;
+  color: #1c0f13;
 }
 
 .container {
   display: flex;
-  max-width: 900px;
+  max-width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+.gameArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 100px);
+  width: 700px;
+  height: 700px;
 }
 
 .grid-container>div {
   border: 0.001em solid black;
-  border-color: rgba(29, 29, 212, 0.1);
-  background-color: aquamarine;
+  border-color: rgba(28, 15, 19, 0.1);
+  background-color: #b7cece;
+}
+
+#btn {
+  background-color: #b7cece;
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: 1px solid #b7cece;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #6e7e85;
+  color: #e2e2e2;
 }

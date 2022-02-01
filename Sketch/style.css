@@ -53,3 +53,23 @@ label {
   background-color: #6e7e85;
   color: #e2e2e2;
 }
+
+@media screen and (max-width: 992px) {
+  .gameArea {
+    flex-direction: column;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {   
+  .grid-container {
+  width: 300px;
+  height: 300px;
+}
+}

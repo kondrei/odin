@@ -38,7 +38,7 @@ export class Sketck {
             return this.color.value
         }
         else {
-            let randomColor = `hsl(${Math.random() * 360}, 50%, 50%)`
+            let randomColor = '#' + Math.random().toString(16).substr(-6);
             this.color.value = randomColor
             return randomColor;
         }

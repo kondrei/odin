@@ -21,10 +21,9 @@ export class Sketck {
         while (this.parent.lastChild) {
             this.parent.lastChild.remove()
         }
+        this.parent.style.gridTemplateColumns = `repeat(${this.gridSize}, minmax(5px,1fr))`;
+        this.parent.style.gridTemplateRows = `repeat(${this.gridSize}, minmax(5px,1fr))`;
         for (let i = 0; i < this.gridSize * this.gridSize; i++) {
-            this.parent.style.gridTemplateColumns = `repeat(${this.gridSize}, minmax(5px,1fr))`;
-            this.parent.style.gridTemplateRows = `repeat(${this.gridSize}, minmax(5px,1fr))`;
-
             let element = document.createElement('div')
             element.addEventListener('mouseenter', () => {
                 element.style.backgroundColor = this._color()
